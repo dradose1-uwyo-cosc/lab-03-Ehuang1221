@@ -36,7 +36,9 @@ print(f"{states[1].upper()} is south of {states[0].upper()}")
 
 print("Part Two------------------------------------------------------------------------")
 #Append the following states to your list: Washington, Oregon, California and print your list
-states.append(["Washington", "Oregon", "California "])
+states.append("Washington")
+states.append("Oregon")
+states.append("California")
 print(states)
 #Again using the specific syntax mentioned in class overwrite the second to last element to be Maine, printing the list 
 states[-2] = "Maine"
@@ -55,10 +57,10 @@ print(states)
 print("Part Three----------------------------------------------------------------------")
 #Temporarily sort your list, print it both sorted and unsorted 
 print(sorted(states))
-print(unsorted(states))
+print(states)
 
 #Permanently sort your list in reverse order, printing it out
-states.sort(reverse=true)
+states.sort(reverse=True)
 print(states)
 #Using the reverse method reverse the list and print it
 states.reverse()
